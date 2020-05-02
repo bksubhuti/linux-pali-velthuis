@@ -1,0 +1,41 @@
+;; pali-velthuis.mim -- Pali input method using velthuis transliteration
+
+(input-method pi velthuis)
+
+(description
+ "Velthuis input method for Pali")
+
+(title "Pi")
+
+(map
+ (map
+  ("AA" ?Ā)
+  ("aa" ?ā)
+  ("II" ?Ī)
+  ("ii" ?ī)
+  ("UU" ?Ū)
+  ("uu" ?ū)
+  ("\"N" ?Ṅ)
+  ("\"n" ?ṅ)
+  (".M" ?Ṃ)
+  (".m" ?ṃ)
+  ("~N" ?Ñ)
+  ("~n" ?ñ)
+  (".T" ?Ṭ)
+  (".t" ?ṭ)
+  (".D" ?ḍ)
+  (".d" ?ḍ)
+  (".N" ?Ṇ)
+  (".n" ?ṇ)
+  (".L" ?Ḷ)
+  (".l" ?ḷ)
+  ))
+
+(state
+ (init
+  (map)))
+
+;; Local Variables:
+;; coding: utf-8
+;; mode: lisp
+;; End:
