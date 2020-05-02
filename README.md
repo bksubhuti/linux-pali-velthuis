@@ -3,6 +3,8 @@ This provides an input database for typing Pali. The method used is Velthuis, wh
 
 ## Keymap
 The mapping is as follows:
+
+```
 AA -> Ā
 aa -> ā
 II -> Ī
@@ -23,6 +25,7 @@ uu -> ū
 .n -> ṇ
 .L -> Ḷ
 .l -> ḷ
+```
 
 ## Use with IBus
 IBus is an input method framework used by many GNU/Linux distributions. It provides a system-wide method for typing a language for which you don't have keys on your keyboard. Here are some instructions for getting this system to work with Pali.
