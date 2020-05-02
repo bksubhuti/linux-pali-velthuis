@@ -1,4 +1,4 @@
-# m17-pali-velthuis - a m17n database for typing Pali using the velthuis transliteration method
+# m17-pali-velthuis
 This provides an input database for typing Pali. The method used is Velthuis, which is a way to write Pali using the limited ASCII character set.
 
 ## Keymap
