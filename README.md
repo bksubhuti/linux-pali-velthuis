@@ -59,3 +59,6 @@ You should now be able to add "Pali (velthuis (m17n))" as an input source. The e
 Depending on your desktop environment, you should now have a language/keyboard picker where you can set your input to Pali. For example, in Gnome, this menu will show up in the top right corner, and you should also be able to switch using the Super-spacebar key combination. (On many keyboards, the Super key is the one with the windows logo).
 
 You should now be able to type "aa" and get "ā".
+
+## Note for Emacs users
+It looks like IBus doesn't really play well with Emacs, getting in the way of various keybindings, at least with this particular database. If you wish to input Pali into Emacs, I recommend using [emacs-pali-velthuis](https://github.com/matko/emacs-pali-velthuis) instead. This uses Emacs' own internal input method, and therefore plays much more nicely with the rest of emacs.
