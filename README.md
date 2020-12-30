@@ -31,22 +31,32 @@ uu -> ū
 IBus is an input method framework used by many GNU/Linux distributions. It provides a system-wide method for typing a language for which you don't have keys on your keyboard. Here are some instructions for getting this system to work with Pali.
 
 ### Install IBus
-On debian-like systems (including ubuntu) this is accomplished by installing the ibus and ibus-m17n package:
+Modern distributions will probably already come with IBus pre-installed, in which case you can skip this step.
+
+On debian-like systems (including ubuntu) installing IBus is accomplished by installing the ibus and ibus-m17n package:
 
 ```
 sudo apt-get install ibus ibus-m17n
 ```
 
+IBus by itself does nothing. It is just a daemon to help applications perform complex input. In order to actually make use of it, you'll need some extra packages depending on your particular window manager and the like. For myself, I had to install ibus packages for gtk and clutter to get my gnome desktop to work properly:
+
+```
+sudo apt-get install ibus-gtk ibus-gtk3 ibus-clutter
+```
+
+Again though, modern distros will most likely come with all required packages pre-installed already.
+
 Other distros will have other but similar ways of installing packages.
 
 ### Install the database file
-Create the directory `.m17n/` in your homedir if it isn't already there:
+Create the directory `.m17n.d/` in your homedir if it isn't already there:
 
 ```
 mkdir -p ~/.m17n.d
 ```
 
-Copy the `pali-velthuis.mim` file into the `~/.m17n/`:
+Copy the `pali-velthuis.mim` file into the `~/.m17n.d/`:
 ```
 cp pali-velthuis.mim ~/.m17n.d/
 ```
