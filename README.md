@@ -1,3 +1,12 @@
+# Easy Install Instructions
+```
+wget https://raw.githubusercontent.com/bksubhuti/linux-pali-velthuis/master/install.sh
+sh install.sh
+```
+
+# Manual Instructions
+
+
 # m17-pali-velthuis
 This provides an input database for typing Pali. The method used is Velthuis, which is a way to write Pali using the limited ASCII character set.
 
