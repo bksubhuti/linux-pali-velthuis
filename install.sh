@@ -29,6 +29,8 @@ echo "Step 6: Log out and back in to ensure the file is picked up"
 # Step 7: Configure the input source in your desktop environment
 echo "Step 7: Configure the input source in your desktop environment, try super key and type:  ibus "
 # Instructions will vary depending on your desktop environment
+echo "trying to launch without reboot"
+ibus-setup
 
 # Step 8: Switch input method as described in your instructions
 echo "Step 8: Switch input method as described in your instructions"
