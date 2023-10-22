@@ -4,6 +4,14 @@ wget https://raw.githubusercontent.com/bksubhuti/linux-pali-velthuis/master/inst
 sh install.sh
 ```
 
+After you run the above two lines, it will install ibus and then it will launch the ibus GUI interface.
+- Select the input keyboard tab
+- Click the add button.
+- Select the velthuis keybaord shown.
+
+![image](https://github.com/bksubhuti/linux-pali-velthuis/assets/18184280/43e8904f-f507-48a6-a6c7-f3d2c0a42f20)
+
+
 # Manual Instructions
 
 
