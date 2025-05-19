@@ -12,6 +12,12 @@ After you run the above two lines, it will install ibus and then it will launch 
 ![image](https://github.com/bksubhuti/linux-pali-velthuis/assets/18184280/43e8904f-f507-48a6-a6c7-f3d2c0a42f20)
 
 
+
+
+https://github.com/user-attachments/assets/8a9fa9b1-4eb9-4d84-a54c-6eeb3ac6690c
+
+
+
 # Manual Instructions
 
 
